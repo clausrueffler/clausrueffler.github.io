@@ -40,6 +40,7 @@ knitr::include_graphics("images/MarcoSaltini.png")
 ```
 [Email](mailto:marco.saltini.ebc.uu.se)  
 [Profile at Uppsala University](https://katalog.uu.se/profile/?id=N20-692)  
+[Google Scholar](https://scholar.google.com/citations?user=PzzFtg4AAAAJ&hl)  
 
 Marco is interested in how ontogentic niche shifts affect the evolution of polymorphism.
 :::
