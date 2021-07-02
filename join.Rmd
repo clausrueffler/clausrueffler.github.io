@@ -1,0 +1,20 @@
+---
+title: "Want to join the lab?"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### MSc projects
+
+Feel free to contact Claus Rueffler if you have a background in mathematical modeling and look for a master’s project.
+ 
+### PhD positions
+
+There are currently no open PhD positions.
+ 
+### Postdoctoral opportunities
+
+There are several Swedish (e.g. [VR](https://www.vr.se/), [Wenner-Gren](https://www.swgc.org/stipendier-och-anslag.aspx), [Olle Engkvists stiftelse](https://engkviststiftelserna.se/ansokan/ansokan-vetenskap/), [Carl Tryggers](https://www.carltryggersstiftelse.se/)) and international (e.g. [Marie-Curie](https://ec.europa.eu/research/mariecurieactions/actions/postdoctoral-fellowships), [Human Frontiers](https://www.hfsp.org/)) funding bodies that can provide fellowships for young researchers who wish to conduct a postdoc in Sweden. For some of these a Sweden-based PI has to submit the application, whilst others are open for postdocs to apply directly. If you are interested in applying and your research interests are broadly similar to ours, feel free to contact Claus Rüffler.

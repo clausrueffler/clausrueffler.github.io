@@ -1,0 +1,23 @@
+---
+title: "Contact"
+#description: |
+#  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**Claus Rüffler** ([Email](mailto:claus.rueffler@ebc.uu.se))  
+
+[Animal Ecology](https://www.ieg.uu.se/animal-ecology/)  
+[Department of Ecology and Genetics](https://www.ieg.uu.se/)  
+[Evolutionary Biology Centre](https://www.ebc.uu.se/?languageId=1)  
+[Uppsala University](https://www.uu.se/en/)  
+Evolutionary Biology Centre, EBC  
+Norbyvägen 18D  
+SE-752 36 Uppsala
+
+[Map](https://www.google.se/maps/place/Uppsala+Universitet+Evolutionsbiologiskt+Centrum/@59.8495509,17.6233052,16.56z/data=!4m5!3m4!1s0x465fcbec1f6ad2b3:0x6f05350920b0dac6!8m2!3d59.8494588!4d17.6241468?hl=en)  
+
+

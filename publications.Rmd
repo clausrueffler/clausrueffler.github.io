@@ -1,0 +1,61 @@
+---
+title: "Publications"
+#description: |
+#  publications
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Peer reviewed journal articles
+
+* Martinossi-Allibert I., Veller C., Ament-Velásquez S.L., Vogan A.A., **Rueffler C.** and Johannesson H. (2021) Invasion and maintenance of meiotic drivers in populations of ascomycete fungi. [Evolution 75: 1150-1169](https://onlinelibrary.wiley.com/doi/10.1111/evo.14214).
+
+* Ohtsuki H., **Rueffler C.**, Wakano J.Y., Parvinen K. and Lehmann L. (2020) The components of directional and disruptive selection in heterogeneous group-structured populations. [Journal of Theoretical Biology 507: 110449](https://www.sciencedirect.com/science/article/pii/S0022519320303040).
+
+* **Vasconcelos P.** and **Rueffler C.** (2020) How Does Joint Evolution of Consumer Traits Affect Resource Specialization? [The American Naturalist 195: 331-348](https://www.journals.uchicago.edu/doi/abs/10.1086/706813?journalCode=an).
+     
+* Martinossi-Allibert M., **Rueffler C.**, Arnquist G. and Berger D. (2019) The efficacy of good genes sexual selection under environmental change. [Proceedings of the Royal Society B 286: 20182313](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2313).
+
+* **Siljestam M.** and Östman Ö. (2017) The combined effects of temporal autocorrelation and the costs of plasticity on the evolution of plasticity. [Journal of Evolutionary Biology 30: 1361-1371](https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.13114).
+
+* Geritz S.A.H., Metz J.A.J. and **Rueffler C.** (2016) Mutual invadability near evolutionarily singular strategies for multivariate traits, with special reference to the strongly convergence stable case. [Journal of Mathematical Biology 72: 1081-1099](https://link.springer.com/article/10.1007/s00285-015-0944-6).
+
+* Svardal H., **Rueffler C.** and Hermisson J. (2015) A general condition for adaptive genetic polymorphism in temporally and spatially heterogeneous environments. [Theoretical Population Biology 99: 76-97](https://www.sciencedirect.com/science/article/pii/S0040580914000926).
+     
+* Svardal H., **Rueffler C.** and Doebeli M. (2014) Organismal complexity and the potential for evolutionary diversification. [Evolution 68: 3248-3259](https://onlinelibrary.wiley.com/doi/full/10.1111/evo.12492).
+     
+* **Rueffler C.** and Metz J.A.J. (2013) Necessary and sufficient conditions for R0 to be a sum of contributions of fertility loops. [Journal of Mathematical Biology 66: 1099-1122](https://link.springer.com/article/10.1007/s00285-012-0575-0).
+     
+* **Rueffler C.**, Metz J.A.J. and Van Dooren T.J.M. (2013) What life cycle graphs can tell about the evolution of life histories. [Journal of Mathematical Biology 66: 225-279](https://link.springer.com/article/10.1007/s00285-012-0509-x).
+     
+* **Rueffler C.**, Hermisson J. and Wagner, G.P. (2012) Evolution of functional specialization and division of labor. [Proceedings of the National Academy of the Sciences of the U.S.A. 109: E326-E335](https://www.pnas.org/content/109/6/E326.abstract?etoc).
+     
+* Svardal H., **Rueffler C.** and Hermisson J. (2011) Comparing environmental and genetic variance as adaptive response to fluctuating selection. [Evolution 65: 2492-2513](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1558-5646.2011.01318.x).
+     
+* Abrams P.A. and **Rueffler C.** (2009) Coexistence and limiting similarity of consumer species competing for a linear array of resources. [Ecology 90: 812-822](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/08-0446.1).
+     
+* Abrams P.A., **Rueffler C.** and Dinnage R. (2008) Competition-similarity relationships and the nonlinearity of competitive effects in consumer-resource systems. [The American Naturalist 172: 463-474](https://www.journals.uchicago.edu/doi/abs/10.1086/590963).
+     
+* Abrams P.A., **Rueffler C.** and Kim G. (2008) Determinants of the strength of disruptive and/or divergent selection arising from resource competition. [Evolution 62: 1571-1586](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1558-5646.2008.00385.x).
+     
+* **Rueffler C.**, Van Dooren T.J.M. and Metz J.A.J. (2007) The interplay between behavior and morphology in the evolutionary dynamics of resource specialization. [The American Naturalist 169: E34-E52](https://www.journals.uchicago.edu/doi/full/10.1086/510635).
+     
+* **Rueffler C.**, Egas M. and Metz J.A.J. (2006) Evolutionary predictions should be based on individual-level traits. [The American Naturalist 168: E148-E162](https://www.journals.uchicago.edu/doi/10.1086/508618).
+     
+* **Rueffler C.**, Van Dooren T.J.M., Leimar O. and Abrams P.A. (2006) Disruptive selection and then what? [Trends in Ecology and Evolution 21: 238-245](https://www.sciencedirect.com/science/article/abs/pii/S0169534706000887).
+
+* **Rueffler C.**, Van Dooren T.J.M. and Metz J.A.J. (2006) The evolution of resource specialization through frequency-dependent and frequency-independent mechanisms. [The American Naturalist 167: 81-93](https://www.journals.uchicago.edu/doi/abs/10.1086/498275).
+     
+* **Rueffler C.**, Van Dooren T.J.M. and Metz J.A.J. (2004) Adaptive walks on changing landscapes: Levins' approach extended. [Theoretical Population Biology 65: 165-178](https://www.sciencedirect.com/science/article/pii/S0040580903001333).
+     .
+* Thiel M., Zander A., Valdivia N., Baeza, J.A. and **Rueffler C.** (2003) Host fidelity of a symbiotic porcellanid crab: the importance of host characteristics. [Journal of Zoology 261: 353-362](https://zslpublications.onlinelibrary.wiley.com/doi/abs/10.1017/S0952836903004333).
+
+* Collin C.L., Pennings P.S., **Rueffler C.**, Widmer A. and Shykoff J.A. (2002) Natural enemies and sex: how seed predators and pathogens contribute to sex-differential reproductive success in a gynodioecious plant. [Oecologia 131: 94-102](https://link.springer.com/article/10.1007/s00442-001-0854-8).
+
+### Book Chapters
+
+* **Rueffler C.** (2012). Migration and the origin of species. in Messer M., Schroeder R. and Wodak R. (eds.) Migrations: Interdisciplinary Perspectives. pp. 327-339. [Springer Vienna](https://link.springer.com/chapter/10.1007/978-3-7091-0950-2_30).
+
