@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Claus Rüffler (PI)
 
+My name is properly spelled with the German letter "ü". However, in my scientific publications I use the letter combination "ue" instead.
+
 ::: {.floatting}
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"'}
 knitr::include_graphics("images/claus.jpg")
@@ -20,7 +22,7 @@ Tel: +46 (0)18 471 2639
 [Google Scholar](https://scholar.google.com/citations?user=b28SPdgAAAAJ)  
 [Research Gate](https://www.researchgate.net/profile/Claus-Rueffler)
 
-My name is properly spelled with the German letter "ü". However, in my scientific publications I use the letter combination "ue" instead.
+
 
 |  |  |
 |:---|:-----|
@@ -28,9 +30,9 @@ My name is properly spelled with the German letter "ü". However, in my scientif
 |2008-2013|Junior group leader, University of Vienna|
 |2005-2007|Postdoctoral fellow, University of Toronto, Advisor: Prof. Peter Abrams|
 |2006| PhD, Leiden University, Prof. Hans Metz|  
-<!--|2009|Research Affiliate (3 month), Yale University, Advisor: Prof. Günter Wagner|-->
+<!--|2009|Research Affiliate (3 month), Yale University, Advisor: Prof. Günter Wagner
 
-Associate editor for Evolution (2016-2018)
+Associate editor for Evolution (2016-2018)|-->
 :::
 
 ### Marco Saltini (posdoc)
