@@ -21,7 +21,7 @@ Tel: +46 (0)18 471 2639
 [Profile at Uppsala University](https://katalog.uu.se/profile/?id=N13-2069)  
 [Google Scholar](https://scholar.google.com/citations?user=b28SPdgAAAAJ)  
 [Research Gate](https://www.researchgate.net/profile/Claus-Rueffler)
-
+:::
 
 
 |  |  |
@@ -33,7 +33,6 @@ Tel: +46 (0)18 471 2639
 <!--|2009|Research Affiliate (3 month), Yale University, Advisor: Prof. Günter Wagner
 
 Associate editor for Evolution (2016-2018)|-->
-:::
 
 ### Marco Saltini (posdoc)
 ::: {.floatting}
