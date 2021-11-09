@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2021
 
+* Congratulations to Alexandros for succesfully defending his master's thesis *Host plant selection in closely related butterfly species due to reproductive interference: Modelling a tritrophic system*.
+
 * New paper co-authored by Claus published:  
 *Martinossi-Allibert I., Veller C., Ament-Velásquez S.L., Vogan A.A., Rueffler C. and Johannesson H. (2021) Invasion and maintenance of meiotic drivers in populations of ascomycete fungi. [Evolution 75: 1150-1169](https://onlinelibrary.wiley.com/doi/10.1111/evo.14214).*
 
@@ -25,6 +27,8 @@ knitr::opts_chunk$set(echo = TRUE)
 *Vasconcelos P. and Rueffler C. (2020) How Does Joint Evolution of Consumer Traits Affect Resource Specialization? [The American Naturalist 195: 331-348](https://www.journals.uchicago.edu/doi/abs/10.1086/706813?journalCode=an).*
 
 ### 2019
+
+* Congratulations to Paula for receiving a [Rosemary Grant Advanced Grant](https://www.evolutionsociety.org/content/society-awards-and-prizes/graduate-research-excellence-grants.html) from the Society for the Study of Evolution to work on the role of phenotypic plasticity during divergent selection driven by resource specialization.
 
 * New paper co-authored by Claus published:  
 *Martinossi-Allibert M., Rueffler C., Arnquist G., Berger D. (2019) The efficacy of good genes sexual selection under environmental change. [Proceedings of the Royal Society B 286: 20182313](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2313).*

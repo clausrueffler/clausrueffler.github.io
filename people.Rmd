@@ -68,15 +68,16 @@ knitr::include_graphics("images/Paula.jpg")
 Paula is interested in how the simultaneous evolution of several traits can affect the emergence of polymorphism.
 :::
 
+
+## Alumni
+
 ### Alexandros Bantounas (master's student)
 ::: {.floatting}
 
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 # knitr::include_graphics("")
 ```
-Alexandros works on a model investigating how reproductive interference affects the spatial distribution of different hosts in a spatially structured plant-host-parasitoid system.
+Alexandros worked on a model investigating how reproductive interference affects the distribution of different hosts in a spatially structured plant-host-parasitoid system.
 :::
 
-## Alumni
-
-[Gil Henriques](https://gilhenriques.github.io/) (master's student)
+### [Gil Henriques](https://gilhenriques.github.io/) (master's student)
