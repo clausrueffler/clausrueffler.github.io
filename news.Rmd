@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2019
 
-* Congratulations to Paula for receiving a [Rosemary Grant Advanced Grant](https://www.evolutionsociety.org/content/society-awards-and-prizes/graduate-research-excellence-grants.html) from the Society for the Study of Evolution to work on the role of phenotypic plasticity during divergent selection driven by resource specialization.
+* Congratulations to Paula for receiving a [Rosemary Grant Advanced Award](https://www.evolutionsociety.org/content/society-awards-and-prizes/graduate-research-excellence-grants.html) from the Society for the Study of Evolution to work on the role of phenotypic plasticity during divergent selection driven by resource specialization.
 
 * New paper co-authored by Claus published:  
 *Martinossi-Allibert M., Rueffler C., Arnquist G., Berger D. (2019) The efficacy of good genes sexual selection under environmental change. [Proceedings of the Royal Society B 286: 20182313](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2313).*
