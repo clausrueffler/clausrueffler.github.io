@@ -77,7 +77,7 @@ Paula is interested in how the simultaneous evolution of several traits can affe
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 # knitr::include_graphics("")
 ```
-Alexandros worked on a model investigating how reproductive interference affects the distribution of different hosts in a spatially structured plant-host-parasitoid system.
+Alexandros worked on a model investigating how reproductive interference affects the distribution of different hosts in a spatially structured plant-host-parasitoid system. Now PhD student in the evolutionary ecology group at the University of Antwerp.
 :::
 
 ### [Gil Henriques](https://gilhenriques.github.io/) (master's student)
