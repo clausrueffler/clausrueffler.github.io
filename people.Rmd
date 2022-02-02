@@ -68,6 +68,14 @@ knitr::include_graphics("images/Paula.jpg")
 Paula is interested in how the simultaneous evolution of several traits can affect the emergence of polymorphism.
 :::
 
+### Iris van Engen (bachelor student)
+::: {.floatting}
+
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+# knitr::include_graphics("")
+```
+Iris is an exchange student visting us from the University of Lausanne. During her research training she will investigate how trophic cascades due to the presence of a top-predator affect diversification and coexistence of consumers at an intermediate trophic level.
+:::
 
 ## Alumni
 
@@ -77,7 +85,9 @@ Paula is interested in how the simultaneous evolution of several traits can affe
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 # knitr::include_graphics("")
 ```
-Alexandros worked on a model investigating how reproductive interference affects the distribution of different hosts in a spatially structured plant-host-parasitoid system. Now PhD student in the evolutionary ecology group at the University of Antwerp.
+In his master's thesis Alexandros investigated how reproductive interference can affect the distribution of different hosts in a spatially structured plant-host-parasitoid system. He is now a PhD student in the evolutionary ecology group at the University of Antwerp.
 :::
 
 ### [Gil Henriques](https://gilhenriques.github.io/) (master's student)
+
+Gil's master's thesis in 2015 was jointly supervised by Simone Immler and Claus.

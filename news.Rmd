@@ -7,6 +7,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### 2022
+
+* Welcome to Iris van Engen who joint us for her research training. Iris is an exchange student visting us from the University of Lausanne. She is interested in how trophic cascades due to top-predators can affect diversification and coexistence of consumers at an intermediate trophic level.
+
 ### 2021
 
 * Congratulations to Alexandros for succesfully defending his master's thesis *[Host plant selection in closely related butterfly species due to reproductive interference: Modelling a tritrophic system](https://www.diva-portal.org/smash/record.jsf?dswid=-7126&pid=diva2%3A1606503&c=1&searchType=SIMPLE&language=en&query=alexandros+bantounas&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)* and for securing a PhD position at the evolutionary ecology group at the University of Antwerp.
