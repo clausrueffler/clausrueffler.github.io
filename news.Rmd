@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2022
 
+* New preprint published by Marco, Paula and Claus: *[Complex life cycles drive community assembly through immigration and adaptive diversification](https://doi.org/10.22541/au.166178163.37534128/v1)*. 
+
 * Welcome to Iris van Engen who joint us for her research training. Iris is an exchange student visting us from the University of Lausanne. She is interested in how trophic cascades due to top-predators can affect diversification and coexistence of consumers at an intermediate trophic level.
 
 ### 2021
