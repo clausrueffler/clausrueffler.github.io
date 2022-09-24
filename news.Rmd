@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2022
 
+* A big congratulations to Paula for successfully defending her PhD thesis *[Adaptive evolution in multidimensional trait spaces](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1686131&dswid=6054)* on 23 September. Many thanks go to *[Maria Servedio, University of North Carolina, USA](https://bio.unc.edu/faculty-profile/servedio/)* for acting as faculty opponent.
+
 * New preprint published by Paula, Marco and Claus: *[Consequences of life-cycle complexity to the potential for evolutionary branching]( https://www.biorxiv.org/content/10.1101/2022.08.31.506002v1)*.
 
 * New preprint published by Marco, Paula and Claus: *[Complex life cycles drive community assembly through immigration and adaptive diversification](https://doi.org/10.22541/au.166178163.37534128/v1)*. 
