@@ -50,17 +50,17 @@ Mattias is interested in the evolution of population level polymorphism that can
 
 ## Alumni
 
+### [Paula Vasconcelos](https://paulavasconcelos.net/) (PhD student)
+::: {.floatting}
+
+Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.
+:::
+
 ### [Marco Saltini](https://research.wur.nl/en/persons/marco-saltini) (posdoc, 2020-22)
 
 ::: {.floatting}
 
 Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.
-:::
-
-### [Paula Vasconcelos](https://paulavasconcelos.net/) (PhD student)
-::: {.floatting}
-
-Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.
 :::
 
 <!--
