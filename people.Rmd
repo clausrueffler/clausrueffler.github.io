@@ -45,16 +45,7 @@ knitr::include_graphics("images/Mattias.jpg")
 Mattias is interested in the evolution of population level polymorphism that can be interpreted as division of labor.
 :::
 
-### Paula Vasconcelos (PhD student)
-::: {.floatting}
-```{r out.width='30%', out.extra='style="float:left; padding:10px"'}
-knitr::include_graphics("images/Paula.jpg")
-```
-[Email](mailto:paula.vasconcelos.ebc.uu.se)  
-[Profile at Uppsala University](https://katalog.uu.se/profile/?id=N15-2232)
 
-Paula is interested in how the simultaneous evolution of several traits can affect the emergence of polymorphism.
-:::
 
 
 ## Alumni
@@ -63,7 +54,13 @@ Paula is interested in how the simultaneous evolution of several traits can affe
 
 ::: {.floatting}
 
-Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adapative raditations and community assembly. He continued as a postdoc at Wageningen University.
+Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.
+:::
+
+### [Paula Vasconcelos](https://paulavasconcelos.net/) (PhD student)
+::: {.floatting}
+
+Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2023 and then started working as a data scientist.
 :::
 
 <!--
