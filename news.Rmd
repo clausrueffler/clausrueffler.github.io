@@ -7,6 +7,12 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### 2023
+
+* New paper by Marco, Paula and Claus published in Ecology Letters:
+*[Complex life cycles drive community assembly through immigration and adaptive diversification](
+https://onlinelibrary.wiley.com/doi/10.1111/ele.14216)*.
+
 ### 2022
 
 * New preprint co-authored by Claus published: *[Foraging for locally and spatially varying resources: Where exploitation competition, local adaptation and kin selection meet](https://www.biorxiv.org/content/10.1101/2022.10.03.510600v1)*.
@@ -14,8 +20,6 @@ knitr::opts_chunk$set(echo = TRUE)
 * A big congratulations to Paula for successfully defending her PhD thesis *[Adaptive evolution in multidimensional trait spaces](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1686131&dswid=6054)* on 23 September. Many thanks go to *[Maria Servedio, University of North Carolina, USA](https://bio.unc.edu/faculty-profile/servedio/)* for acting as faculty opponent.
 
 * New preprint published by Paula, Marco and Claus: *[Consequences of life-cycle complexity to the potential for evolutionary branching](https://www.biorxiv.org/content/10.1101/2022.08.31.506002v2)*.
-
-* New preprint published by Marco, Paula and Claus: *[Complex life cycles drive community assembly through immigration and adaptive diversification](https://www.authorea.com/doi/full/10.22541/au.166178163.37534128)*. 
 
 * Welcome to Iris van Engen who joint us for her research training. Iris is an exchange student visting us from the University of Lausanne. She is interested in how trophic cascades due to top-predators can affect diversification and coexistence of consumers at an intermediate trophic level.
 
