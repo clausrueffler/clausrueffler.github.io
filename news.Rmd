@@ -9,13 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2023
 
+* New paper co-authored by Claus published in The American Naturalist: *[Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet](https://www.journals.uchicago.edu/doi/10.1086/727483)*.
+
 * New paper by Marco, Paula and Claus published in Ecology Letters:
 *[Complex life cycles drive community assembly through immigration and adaptive diversification](
 https://onlinelibrary.wiley.com/doi/10.1111/ele.14216)*.
 
 ### 2022
-
-* New preprint co-authored by Claus published: *[Foraging for locally and spatially varying resources: Where exploitation competition, local adaptation and kin selection meet](https://www.biorxiv.org/content/10.1101/2022.10.03.510600v1)*.
 
 * A big congratulations to Paula for successfully defending her PhD thesis *[Adaptive evolution in multidimensional trait spaces](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1686131&dswid=6054)* on 23 September. Many thanks go to *[Maria Servedio, University of North Carolina, USA](https://bio.unc.edu/faculty-profile/servedio/)* for acting as faculty opponent.
 

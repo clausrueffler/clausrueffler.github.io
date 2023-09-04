@@ -11,7 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Peer reviewed journal articles
 
-* **Saltini M.**, **Vasconcelos P.** and **Rueffler C.** (2023) Complex life cycles drive community assembly through immigration and adaptive diversification. [Ecology Letters, early view](https://onlinelibrary.wiley.com/doi/10.1111/ele.14216).
+* Schmid M., **Rueffler C.**, Lehmann L. and Mullon C. (2023) Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet. [The American Naturalist, in press](https://www.journals.uchicago.edu/doi/10.1086/727483).
+
+* **Saltini M.**, **Vasconcelos P.** and **Rueffler C.** (2023) Complex life cycles drive community assembly through immigration and adaptive diversification. [Ecology Letters 26: 1084-1094](https://onlinelibrary.wiley.com/doi/10.1111/ele.14216).
 
 * Martinossi-Allibert I., Veller C., Ament-Velásquez S.L., Vogan A.A., **Rueffler C.** and Johannesson H. (2021) Invasion and maintenance of meiotic drivers in populations of ascomycete fungi. [Evolution 75: 1150-1169](https://onlinelibrary.wiley.com/doi/10.1111/evo.14214).
 
