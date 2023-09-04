@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2023
 
+* Welcome to Izabel Eriksson Reuterborg who joins us for her master's thesis. Izabel studies at Uppsala University. She is interested in modelling community assembly in consumer species with complex life cycles. To this end, she will get into writing individual-based simulations in R.
+
 * New paper co-authored by Claus published in The American Naturalist: *[Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet](https://www.journals.uchicago.edu/doi/10.1086/727483)*.
 
 * New paper by Marco, Paula and Claus published in Ecology Letters:
