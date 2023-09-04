@@ -45,7 +45,11 @@ knitr::include_graphics("images/Mattias.jpg")
 Mattias is interested in the evolution of population level polymorphism that can be interpreted as division of labor.
 :::
 
+### Izabel Eriksson Reuterborg (master's student)
+::: {.floatting}
 
+Izabel is interested in exploring commnunity assembley in consumers with complex life cycles.
+:::
 
 
 ## Alumni
