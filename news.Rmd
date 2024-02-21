@@ -7,7 +7,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ### 2023
+
+* Claus gives a talk in the *[Theoretical Ecology Webinar Series](https://iite.info/seminar/)* organized by the *[International Initiative for Theoretical Ecology](https://iite.info/)*. In his talk, he presents work by Marco and Paula on evolutionary diversification and community assembly for species with complex life cycles. You can see a recording of his presentation *[here](https://www.youtube.com/watch?v=trPw2meV6DY)*.
 
 * New paper co-authored by Mattias published in The American Naturalist: *[Anisogamy does not always promote the evolution of mating competition traits in males](https://www.journals.uchicago.edu/doi/10.1086/727968)*.
 

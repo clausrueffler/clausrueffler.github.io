@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2376,7 +2383,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2436,8 +2443,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-article">
 <h3 id="peer-reviewed-journal-articles">Peer reviewed journal articles</h3>
 <ul>
-<li><p><strong>Siljestam M.</strong> and Martinossi-Allibert I. (2023) Anisogamy does not always promote the evolution of mating competition traits in males. <a href="https://www.journals.uchicago.edu/doi/10.1086/727968">The American Naturalist, in press</a>.</p></li>
-<li><p>Schmid M., <strong>Rueffler C.</strong>, Lehmann L. and Mullon C. (2023) Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet. <a href="https://www.journals.uchicago.edu/doi/10.1086/727483">The American Naturalist, in press</a>.</p></li>
+<li><p><strong>Siljestam M.</strong> and Martinossi-Allibert I. (2024) Anisogamy does not always promote the evolution of mating competition traits in males. <a href="https://www.journals.uchicago.edu/doi/10.1086/727968">The American Naturalist 203: 230-253</a>.</p></li>
+<li><p>Schmid M., <strong>Rueffler C.</strong>, Lehmann L. and Mullon C. (2024) Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet. <a href="https://www.journals.uchicago.edu/doi/10.1086/727483">The American Naturalist 203: E19-E34</a>.</p></li>
 <li><p><strong>Saltini M.</strong>, <strong>Vasconcelos P.</strong> and <strong>Rueffler C.</strong> (2023) Complex life cycles drive community assembly through immigration and adaptive diversification. <a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.14216">Ecology Letters 26: 1084-1094</a>.</p></li>
 <li><p>Martinossi-Allibert I., Veller C., Ament-Velásquez S.L., Vogan A.A., <strong>Rueffler C.</strong> and Johannesson H. (2021) Invasion and maintenance of meiotic drivers in populations of ascomycete fungi. <a href="https://onlinelibrary.wiley.com/doi/10.1111/evo.14214">Evolution 75: 1150-1169</a>.</p></li>
 <li><p>Ohtsuki H., <strong>Rueffler C.</strong>, Wakano J.Y., Parvinen K. and Lehmann L. (2020) The components of directional and disruptive selection in heterogeneous group-structured populations. <a href="https://www.sciencedirect.com/science/article/pii/S0022519320303040">Journal of Theoretical Biology 507: 110449</a>.</p></li>
@@ -2458,7 +2465,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><p><strong>Rueffler C.</strong>, Egas M. and Metz J.A.J. (2006) Evolutionary predictions should be based on individual-level traits. <a href="https://www.journals.uchicago.edu/doi/10.1086/508618">The American Naturalist 168: E148-E162</a>.</p></li>
 <li><p><strong>Rueffler C.</strong>, Van Dooren T.J.M., Leimar O. and Abrams P.A. (2006) Disruptive selection and then what? <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169534706000887">Trends in Ecology and Evolution 21: 238-245</a>.</p></li>
 <li><p><strong>Rueffler C.</strong>, Van Dooren T.J.M. and Metz J.A.J. (2006) The evolution of resource specialization through frequency-dependent and frequency-independent mechanisms. <a href="https://www.journals.uchicago.edu/doi/abs/10.1086/498275">The American Naturalist 167: 81-93</a>.</p></li>
-<li><p><strong>Rueffler C.</strong>, Van Dooren T.J.M. and Metz J.A.J. (2004) Adaptive walks on changing landscapes: Levins’ approach extended. <a href="https://www.sciencedirect.com/science/article/pii/S0040580903001333">Theoretical Population Biology 65: 165-178</a>. .</p></li>
+<li><p><strong>Rueffler C.</strong>, Van Dooren T.J.M. and Metz J.A.J. (2004) Adaptive walks on changing landscapes: Levins’ approach extended. <a href="https://www.sciencedirect.com/science/article/pii/S0040580903001333">Theoretical Population Biology 65: 165-178</a>.
+.</p></li>
 <li><p>Thiel M., Zander A., Valdivia N., Baeza, J.A. and <strong>Rueffler C.</strong> (2003) Host fidelity of a symbiotic porcellanid crab: the importance of host characteristics. <a href="https://zslpublications.onlinelibrary.wiley.com/doi/abs/10.1017/S0952836903004333">Journal of Zoology 261: 353-362</a>.</p></li>
 <li><p>Collin C.L., Pennings P.S., <strong>Rueffler C.</strong>, Widmer A. and Shykoff J.A. (2002) Natural enemies and sex: how seed predators and pathogens contribute to sex-differential reproductive success in a gynodioecious plant. <a href="https://link.springer.com/article/10.1007/s00442-001-0854-8">Oecologia 131: 94-102</a>.</p></li>
 </ul>
@@ -2482,7 +2490,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>Claus Rüffler. All rights reserved. Website made with <a href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
+<p>Claus Rüffler. All rights reserved. Website made with <a
+href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
 Artwork for the lab-logo by Paula Vasconcelos.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
