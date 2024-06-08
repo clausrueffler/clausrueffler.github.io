@@ -45,10 +45,16 @@ knitr::include_graphics("images/Mattias.jpg")
 Mattias is interested in the evolution of population level polymorphism that can be interpreted as division of labor.
 :::
 
-### Izabel Eriksson Reuterborg (master's student)
+### Mattias Finndin (master's student)
 ::: {.floatting}
 
-Izabel is interested in exploring community assembly in consumers with complex life cycles.
+Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communites.
+:::
+
+### Olle Wickman (master's student)
+::: {.floatting}
+
+Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.
 :::
 
 
@@ -80,17 +86,23 @@ Marco is interested in how ontogentic niche shifts affect the evolution of polym
 :::
 -->
 
+### Izabel Eriksson Reuterborg (master's student, 2023-24)
+::: {.floatting}
+
+In her master's thesis, Izabel investigated by means of individudal-based computer simulations how complex life cycles affect community assembly.
+:::
+
 ### Iris van Engen (bachelor student, 2022)
 ::: {.floatting}
 
-Iris was an exchange student visting us from the University of Lausanne. During her research training she investigated how trophic cascades due to the presence of a top-predator affect diversification and coexistence of consumers at an intermediate trophic level. She continued with a master's in Environment Biology at
+Iris was an exchange student visiting us from the University of Lausanne. During her research training she investigated how trophic cascades due to the presence of a top-predator affect diversification and coexistence of consumers at an intermediate trophic level. She continued with a master's in Environment Biology at
 University of Utrecht.
 :::
 
 ### [Alexandros Bantounas](https://www.uantwerpen.be/en/staff/alexandros-bantounas_23478/) (master's student, 2020-21)
 ::: {.floatting}
 
-In his master's thesis Alexandros investigated how reproductive interference can affect the distribution of different hosts in a spatially structured plant-host-parasitoid system. He continued as a PhD student in the evolutionary ecology group at the University of Antwerp.
+In his master's thesis, Alexandros investigated how reproductive interference can affect the distribution of different hosts in a spatially structured plant-host-parasitoid system. He continued as a PhD student in the evolutionary ecology group at the University of Antwerp.
 :::
 
 ### [Gil Henriques](https://gilhenriques.github.io/) (master's student, 2015)

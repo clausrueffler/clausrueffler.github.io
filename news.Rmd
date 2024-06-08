@@ -9,6 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2024
 
+* Welcome to Olle Wickman who joins us for his master's thesis. Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.
+
+* Welcome to Mattias Finndin who joins us for his master's thesis. Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communites.
+
+* Congratulations to Izabel for successfully defending her master's thesis. 
+<!--*[Host plant selection in closely related butterfly species due to reproductive interference: Modelling a tritrophic system](https://www.diva-portal.org/smash/record.jsf?dswid=-7126&pid=diva2%3A1606503&c=1&searchType=SIMPLE&language=en&query=alexandros+bantounas&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)* and for securing a PhD position at the evolutionary ecology group at the University of Antwerp.-->
+
 * New preprint co-authored by Mattias and Claus: *[Sex-specific dominance and its effects on allelic diversity in sexually antagonistic loci](https://www.biorxiv.org/content/10.1101/2024.05.06.592709v1)*.
 
 ### 2023
@@ -35,7 +42,7 @@ https://onlinelibrary.wiley.com/doi/10.1111/ele.14216)*.
 
 ### 2021
 
-* Congratulations to Alexandros for succesfully defending his master's thesis *[Host plant selection in closely related butterfly species due to reproductive interference: Modelling a tritrophic system](https://www.diva-portal.org/smash/record.jsf?dswid=-7126&pid=diva2%3A1606503&c=1&searchType=SIMPLE&language=en&query=alexandros+bantounas&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)* and for securing a PhD position at the evolutionary ecology group at the University of Antwerp.
+* Congratulations to Alexandros for successfully defending his master's thesis *[Host plant selection in closely related butterfly species due to reproductive interference: Modelling a tritrophic system](https://www.diva-portal.org/smash/record.jsf?dswid=-7126&pid=diva2%3A1606503&c=1&searchType=SIMPLE&language=en&query=alexandros+bantounas&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)* and for securing a PhD position at the evolutionary ecology group at the University of Antwerp.
 
 * New paper co-authored by Claus published:  
 *Martinossi-Allibert I., Veller C., Ament-Velásquez S.L., Vogan A.A., Rueffler C. and Johannesson H. (2021) Invasion and maintenance of meiotic drivers in populations of ascomycete fungi. [Evolution 75: 1150-1169](https://onlinelibrary.wiley.com/doi/10.1111/evo.14214).*
