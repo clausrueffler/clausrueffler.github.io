@@ -9,6 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2024
 
+* New preprint co-authored by Claus: *[Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence](https://www.biorxiv.org/content/10.1101/2024.06.13.598783v1)*.
+
+* A big congratulations to Mattias for successfully defending his PhD thesis *[Mathematical Solutions to Divergent Evolution](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-526967)* on 14 June. Many thanks go to *[Eva Kisdi (University of Helsinki, Finland)](https://www.mv.helsinki.fi/home/kisdi/)* for acting as faculty opponent. Eva and Mattias had the most interesting discussion one could hope for at a PhD defense.
+<img src="images/MattiasDefense.jpg" alt="isolated" width="50%"/>
+
 * Welcome to Olle Wickman who joins us for his master's thesis. Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.
 
 * Welcome to Mattias Finndin who joins us for his master's thesis. Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communites.
@@ -34,7 +39,7 @@ https://onlinelibrary.wiley.com/doi/10.1111/ele.14216)*.
 
 ### 2022
 
-* A big congratulations to Paula for successfully defending her PhD thesis *[Adaptive evolution in multidimensional trait spaces](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1686131&dswid=6054)* on 23 September. Many thanks go to *[Maria Servedio, University of North Carolina, USA](https://bio.unc.edu/faculty-profile/servedio/)* for acting as faculty opponent.
+* A big congratulations to Paula for successfully defending her PhD thesis *[Adaptive evolution in multidimensional trait spaces](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1686131&dswid=6054)* on 23 September. Many thanks go to *[Maria Servedio (University of North Carolina, USA)](https://bio.unc.edu/faculty-profile/servedio/)* for acting as faculty opponent.
 
 * New preprint published by Paula, Marco and Claus: *[Consequences of life-cycle complexity to the potential for evolutionary branching](https://www.biorxiv.org/content/10.1101/2022.08.31.506002v2)*.
 
