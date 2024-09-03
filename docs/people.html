@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2376,7 +2383,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2473,15 +2480,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--|2009|Research Affiliate (3 month), Yale University, Advisor: Prof. Günter Wagner
 
 Associate editor for Evolution (2016-2018)|-->
-<h3 id="mattias-siljestam-phd-student">Mattias Siljestam (PhD student)</h3>
-<div class="floatting">
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/mattias.jpg" width="30%" style="float:left; padding:10px" /></p>
-</div>
-<p><a href="mailto:mattias.siljestam.ebc.uu.se">Email</a><br />
-<a href="https://katalog.uu.se/profile/?id=N14-1246">Profile at Uppsala University</a></p>
-<p>Mattias is interested in the evolution of population level polymorphism that can be interpreted as division of labor.</p>
-</div>
 <h3 id="mattias-finndin-masters-student">Mattias Finndin (master’s student)</h3>
 <div class="floatting">
 <p>Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communities.</p>
@@ -2491,14 +2489,6 @@ Associate editor for Evolution (2016-2018)|-->
 <p>Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.</p>
 </div>
 <h2 id="alumni">Alumni</h2>
-<h3 id="paula-vasconcelos-phd-student"><a href="https://paulavasconcelos.net/">Paula Vasconcelos</a> (PhD student)</h3>
-<div class="floatting">
-<p>Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.</p>
-</div>
-<h3 id="marco-saltini-posdoc-2020-22"><a href="https://research.wur.nl/en/persons/marco-saltini">Marco Saltini</a> (posdoc, 2020-22)</h3>
-<div class="floatting">
-<p>Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.</p>
-</div>
 <!--
 ::: {.floatting}
 <div class="layout-chunk" data-layout="l-body">
@@ -2513,13 +2503,26 @@ Associate editor for Evolution (2016-2018)|-->
 Marco is interested in how ontogentic niche shifts affect the evolution of polymorphism.
 :::
 -->
+<h3 id="mattias-siljestam-phd-student-defended-2024">Mattias Siljestam (PhD student, defended 2024)</h3>
+<div class="floatting">
+<p>Mattias mainly worked on models investigating the emergence of polymorphism at diploid loci, using <em>Adapative dynamics in allele space</em>. In his models, polymorphism can often be understood as division of labor between two different alleles at the same locus.</p>
+</div>
 <h3 id="izabel-eriksson-reuterborg-masters-student-2023-24">Izabel Eriksson Reuterborg (master’s student, 2023-24)</h3>
 <div class="floatting">
 <p>In her master’s thesis, Izabel investigated by means of individudal-based computer simulations how complex life cycles affect community assembly.</p>
 </div>
+<h3 id="marco-saltini-posdoc-2020-22"><a href="https://research.wur.nl/en/persons/marco-saltini">Marco Saltini</a> (posdoc, 2020-22)</h3>
+<div class="floatting">
+<p>Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.</p>
+</div>
+<h3 id="paula-vasconcelos-phd-student-defended-2022"><a href="https://paulavasconcelos.net/">Paula Vasconcelos</a> (PhD student, defended 2022)</h3>
+<div class="floatting">
+<p>Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.</p>
+</div>
 <h3 id="iris-van-engen-bachelor-student-2022">Iris van Engen (bachelor student, 2022)</h3>
 <div class="floatting">
-<p>Iris was an exchange student visiting us from the University of Lausanne. During her research training she investigated how trophic cascades due to the presence of a top-predator affect diversification and coexistence of consumers at an intermediate trophic level. She continued with a master’s in Environment Biology at University of Utrecht.</p>
+<p>Iris was an exchange student visiting us from the University of Lausanne. During her research training she investigated how trophic cascades due to the presence of a top-predator affect diversification and coexistence of consumers at an intermediate trophic level. She continued with a master’s in Environment Biology at
+University of Utrecht.</p>
 </div>
 <h3 id="alexandros-bantounas-masters-student-2020-21"><a href="https://www.uantwerpen.be/en/staff/alexandros-bantounas_23478/">Alexandros Bantounas</a> (master’s student, 2020-21)</h3>
 <div class="floatting">
@@ -2543,7 +2546,8 @@ Marco is interested in how ontogentic niche shifts affect the evolution of polym
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>Claus Rüffler. All rights reserved. Website made with <a href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
+<p>Claus Rüffler. All rights reserved. Website made with <a
+href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
 Artwork for the lab-logo by Paula Vasconcelos.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
