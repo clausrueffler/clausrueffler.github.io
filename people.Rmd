@@ -66,16 +66,16 @@ Marco is interested in how ontogentic niche shifts affect the evolution of polym
 :::
 -->
 
-### Mattias Siljestam (PhD student, defended 2024)
+### [Mattias Siljestam](https://www.su.se/english/profiles/masi4191-1.759284) (PhD student, defended 2024)
 ::: {.floatting}
 
-Mattias mainly worked on models investigating the emergence of polymorphism at diploid loci, using *Adapative dynamics in allele space*. In his models, polymorphism can often be understood as division of labor between two different alleles at the same locus.
+Mattias mainly worked on models investigating the emergence of polymorphism at diploid loci, using *Adaptive dynamics in allele space*. In his models, polymorphism can often be understood as division of labor between two different alleles at the same locus.
 :::
 
 ### Izabel Eriksson Reuterborg (master's student, 2023-24)
 ::: {.floatting}
 
-In her master's thesis, Izabel investigated by means of individudal-based computer simulations how complex life cycles affect community assembly.
+In her master's thesis, Izabel investigated by means of individual-based computer simulations how complex life cycles affect community assembly.
 :::
 
 ### [Marco Saltini](https://research.wur.nl/en/persons/marco-saltini) (posdoc, 2020-22)
