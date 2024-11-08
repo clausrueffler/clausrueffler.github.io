@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2024
 
-* New preprint co-authored by Claus: *[Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence](https://www.biorxiv.org/content/10.1101/2024.06.13.598783v1)*.
+* New paper co-authored by Claus published in PNAS: *[Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence](https://www.pnas.org/doi/10.1073/pnas.2411780121)*.
 
 * A big congratulations to Mattias for successfully defending his PhD thesis *[Mathematical Solutions to Divergent Evolution](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-526967)* on 14 June. Many thanks go to *[Eva Kisdi (University of Helsinki, Finland)](https://www.mv.helsinki.fi/home/kisdi/)* for acting as faculty opponent. Eva and Mattias had the most interesting discussion one could hope for at a PhD defense.
 <img src="images/MattiasDefense.jpg" alt="isolated" width="50%"/>

@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Peer reviewed journal articles
 
+* **Rueffler C.** and Lehmann L. (2024) Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence. [PNAS 121: e2411780121](https://www.pnas.org/doi/10.1073/pnas.2411780121).
+
 * **Siljestam M.** and Martinossi-Allibert I. (2024) Anisogamy does not always promote the evolution of mating competition traits in males. [The American Naturalist 203: 230-253](https://www.journals.uchicago.edu/doi/10.1086/727968).
 
 * Schmid M., **Rueffler C.**, Lehmann L. and Mullon C. (2024) Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet. [The American Naturalist 203: E19-E34](https://www.journals.uchicago.edu/doi/10.1086/727483).
