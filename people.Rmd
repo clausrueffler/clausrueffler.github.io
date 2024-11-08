@@ -34,17 +34,6 @@ Tel: +46 (0)18 471 2639
 
 Associate editor for Evolution (2016-2018)|-->
 
-### Mattias Siljestam (PhD student)
-::: {.floatting}
-```{r out.width='30%', out.extra='style="float:left; padding:10px"'}
-knitr::include_graphics("images/Mattias.jpg")
-```
-[Email](mailto:mattias.siljestam.ebc.uu.se)  
-[Profile at Uppsala University](https://katalog.uu.se/profile/?id=N14-1246)  
-
-Mattias is interested in the evolution of population level polymorphism that can be interpreted as division of labor.
-:::
-
 ### Mattias Finndin (master's student)
 ::: {.floatting}
 
@@ -60,18 +49,9 @@ Olle is interested in the role of behavioral habitat choice for species coexiste
 
 ## Alumni
 
-### [Paula Vasconcelos](https://paulavasconcelos.net/) (PhD student)
-::: {.floatting}
 
-Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.
-:::
 
-### [Marco Saltini](https://research.wur.nl/en/persons/marco-saltini) (posdoc, 2020-22)
 
-::: {.floatting}
-
-Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.
-:::
 
 <!--
 ::: {.floatting}
@@ -86,10 +66,29 @@ Marco is interested in how ontogentic niche shifts affect the evolution of polym
 :::
 -->
 
+### [Mattias Siljestam](https://www.su.se/english/profiles/masi4191-1.759284) (PhD student, defended 2024)
+::: {.floatting}
+
+Mattias mainly worked on models investigating the emergence of polymorphism at diploid loci, using *Adaptive dynamics in allele space*. In his models, polymorphism can often be understood as division of labor between two different alleles at the same locus.
+:::
+
 ### Izabel Eriksson Reuterborg (master's student, 2023-24)
 ::: {.floatting}
 
-In her master's thesis, Izabel investigated by means of individudal-based computer simulations how complex life cycles affect community assembly.
+In her master's thesis, Izabel investigated by means of individual-based computer simulations how complex life cycles affect community assembly.
+:::
+
+### [Marco Saltini](https://research.wur.nl/en/persons/marco-saltini) (posdoc, 2020-22)
+
+::: {.floatting}
+
+Marco joined us as a Thunberg Fellow at the Swedish Collegium of Advanced Study (SCAS). He investigated how complex life cycles and ontogentic niche shifts affect adaptive radiations and community assembly. He continued as a postdoc at Wageningen University.
+:::
+
+### [Paula Vasconcelos](https://paulavasconcelos.net/) (PhD student, defended 2022)
+::: {.floatting}
+
+Paula joined us all the way from Brazil for her PhD on evolutionary dynamics in multi-dimensional trait spaces. She successfully defended her PhD-thesis in September 2022 and then started working as a data scientist.
 :::
 
 ### Iris van Engen (bachelor student, 2022)
