@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2024
 
-* New paper co-authored by Claus published in PNAS: *[Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence](https://www.pnas.org/doi/10.1073/pnas.2411780121)*. For a press release, see *[here](https://www.uu.se/en/press/press-releases/2024/2024-11-18-new-model-can-help-understand-coexistence-in-nature)* and *[here](https://www.growkudos.com/publications/10.1073%25252Fpnas.2411780121/reader)*.
+* New paper co-authored by Claus published in PNAS: *[Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence](https://www.pnas.org/doi/10.1073/pnas.2411780121)*. For a press release, see *[here](https://www.mynewsdesk.com/uu/pressreleases/new-model-can-help-understand-coexistence-in-nature-3354687)* and *[here](https://www.growkudos.com/publications/10.1073%25252Fpnas.2411780121/reader)*.
 
 * Welcome to *Olle Wickman* who joins us for his master's thesis. Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.
 
