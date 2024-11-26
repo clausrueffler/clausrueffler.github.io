@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Peer reviewed journal articles
 
+* **Siljestam M.** and **Rueffler C.** (2024) Heterozygote advantage can explain the extraordinary diversity of immune genes. [eLife: 94587](https://elifesciences.org/articles/94587).
+
 * **Rueffler C.** and Lehmann L. (2024) Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence. [PNAS 121: e2411780121](https://www.pnas.org/doi/10.1073/pnas.2411780121).
 
 * **Siljestam M.** and Martinossi-Allibert I. (2024) Anisogamy does not always promote the evolution of mating competition traits in males. [The American Naturalist 203: 230-253](https://www.journals.uchicago.edu/doi/10.1086/727968).
