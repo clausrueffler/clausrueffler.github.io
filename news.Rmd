@@ -7,9 +7,13 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### 2024
+### 2025
 
-* New paper by *Mattias* and *Claus* published in *eLife*: [*Heterozygote advantage can explain the extraordinary diversity of immune genes*](https://elifesciences.org/articles/94587). This article was accepted for publication via eLife's original publishing model (acceptance after peer-review).
+* *Mattias F.* presents a poster with the results from his master's thesis at the [*Swedish Oikos Meeting*](https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2025-121996/) in Stockholm.
+
+* New paper by *Mattias S.* and *Claus* published in *eLife*: [*Heterozygote advantage can explain the extraordinary diversity of immune genes*](https://elifesciences.org/articles/94587). This article was accepted for publication via eLife's original publishing model (acceptance after peer-review).
+
+### 2024
 
 * New paper co-authored by *Claus* published in *PNAS*: [*Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence*](https://www.pnas.org/doi/10.1073/pnas.2411780121). For a press release, see [*here*](https://www.mynewsdesk.com/uu/pressreleases/new-model-can-help-understand-coexistence-in-nature-3354687) and [*here*](https://www.growkudos.com/publications/10.1073%25252Fpnas.2411780121/reader).
 
