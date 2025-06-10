@@ -34,17 +34,6 @@ Tel: +46 (0)18 471 2639
 
 Associate editor for Evolution (2016-2018)|-->
 
-### Mattias Finndin (master's student)
-::: {.floatting}
-
-Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communities.
-:::
-
-### Olle Wickman (master's student)
-::: {.floatting}
-
-Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.
-:::
 
 
 ## Alumni
@@ -65,6 +54,19 @@ knitr::include_graphics("images/MarcoSaltini.png")
 Marco is interested in how ontogentic niche shifts affect the evolution of polymorphism.
 :::
 -->
+
+
+### Olle Wickman (master's student, 2024-25)
+::: {.floatting}
+
+In his master's thesis, Olle build and analyzed mathematical models to investigate the role of behavioral habitat choice for species coexistence.
+:::
+
+### Mattias Finndin (master's student, 2024-25)
+::: {.floatting}
+
+In his master's thesis, Mattias analyzed a large set of bird inventory data from Torne Lappmark, Northern Sweden, to investigate the role of palsa mires for communities of arctic wader birds. 
+:::
 
 ### [Mattias Siljestam](https://www.su.se/english/profiles/masi4191-1.759284) (PhD student, defended 2024)
 ::: {.floatting}
