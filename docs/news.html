@@ -785,7 +785,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
-    font-size: 100%;
   }
 
   .html-widget {
@@ -1858,21 +1857,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        const citeChild = $(this).children()[0]
-        // Do not process if @xyz has been used without escaping and without bibliography activated
-        // https://github.com/rstudio/distill/issues/466
-        if (citeChild === undefined) return true
-
-        if (citeChild.nodeName == "D-FOOTNOTE") {
-          var fn = citeChild
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          // Could use CSS.escape too here, we insure backward compatibility in navigator
-          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2383,7 +2376,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2444,8 +2437,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h3 id="section">2025</h3>
 <ul>
 <li><p>Congratulations to <em>Olle</em> for successfully defending his master’s thesis <a href=""><em>Foraging Accuracy across Environmental Gradients: Implications for Coexistence and Evolutionary Diversification</em></a>. Also Olle will start his professional career in environmental consultancy.</p></li>
-<li><p>Congratulations to <em>Mattias S.</em> for an honorable mentioning in the
-<a href="https://www.amnat.org/awards.html"><em>American Naturalist Student Paper Award</em></a> for this paper on <a href="https://www.journals.uchicago.edu/doi/full/10.1086/727968"><em>anisogamy</em></a>.</p></li>
+<li><p>Congratulations to <em>Mattias S.</em> for an honorable mentioning in the <a href="https://www.journals.uchicago.edu/doi/full/10.1086/735855#_i2"><em>American Naturalist Student Paper Award</em></a> for his paper on <a href="https://www.journals.uchicago.edu/doi/full/10.1086/727968"><em>anisogamy</em></a>.</p></li>
 <li><p>Congratulations to <em>Mattias F.</em> for successfully defending his master’s thesis <a href=""><em>How do Arctic palsa mires affect bird abundances?</em></a>. After his defense, Mattias entered the world of environmental consultancy work.</p></li>
 <li><p><em>Mattias F.</em> presents a poster with the results from his master’s thesis at the <a href="https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2025-121996/"><em>Swedish Oikos Meeting</em></a> in Stockholm.</p></li>
 <li><p>New paper by <em>Mattias S.</em> and <em>Claus</em> published in <em>eLife</em>: <a href="https://elifesciences.org/articles/94587"><em>Heterozygote advantage can explain the extraordinary diversity of immune genes</em></a>. This article was accepted for publication via eLife’s original publishing model (acceptance after peer-review).</p></li>
@@ -2455,8 +2447,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><p>New paper co-authored by <em>Claus</em> published in <em>PNAS</em>: <a href="https://www.pnas.org/doi/10.1073/pnas.2411780121"><em>Central place foragers, prey depletion halos, and how behavioral niche partitioning promotes consumer coexistence</em></a>. For a press release, see <a href="https://www.mynewsdesk.com/uu/pressreleases/new-model-can-help-understand-coexistence-in-nature-3354687"><em>here</em></a> and <a href="https://www.growkudos.com/publications/10.1073%25252Fpnas.2411780121/reader"><em>here</em></a>.</p></li>
 <li><p>Welcome to <em>Olle Wickman</em> who joins us for his master’s thesis. Olle is interested in the role of behavioral habitat choice for species coexistence. He will investigate this question with a combination of analytical and simulation approaches.</p></li>
 <li><p>Welcome to <em>Mattias Finndin</em> who joins us for his master’s thesis. Mattias is interested communities of arctic wader birds and will collect and analyses field observations to understand the role of palsa mires for wader communities.</p></li>
-<li><p>A big congratulations to <em>Mattias</em> for successfully defending his PhD thesis <a href="https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-526967"><em>Mathematical Solutions to Divergent Evolution</em></a> on 14 June. Many thanks go to <a href="https://www.mv.helsinki.fi/home/kisdi/"><em>Eva Kisdi (University of Helsinki, Finland)</em></a> for acting as faculty opponent. Eva and Mattias had the most interesting discussion one could hope for at a PhD defense.
-<img src="images/MattiasDefense.jpg" alt="isolated" width="50%"/></p></li>
+<li><p>A big congratulations to <em>Mattias</em> for successfully defending his PhD thesis <a href="https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-526967"><em>Mathematical Solutions to Divergent Evolution</em></a> on 14 June. Many thanks go to <a href="https://www.mv.helsinki.fi/home/kisdi/"><em>Eva Kisdi (University of Helsinki, Finland)</em></a> for acting as faculty opponent. Eva and Mattias had the most interesting discussion one could hope for at a PhD defense. <img src="images/MattiasDefense.jpg" alt="isolated" width="50%"/></p></li>
 <li><p>Congratulations to <em>Izabel</em> for successfully defending her master’s thesis <a href="https://uu.diva-portal.org/smash/record.jsf?dswid=-8544&amp;pid=diva2%3A1893821&amp;c=2&amp;searchType=SIMPLE&amp;language=en&amp;query=izabel+eriksson+reuterborg&amp;af=%5B%5D&amp;aq=%5B%5B%5D%5D&amp;aq2=%5B%5B%5D%5D&amp;aqe=%5B%5D&amp;noOfRows=50&amp;sortOrder=author_sort_asc&amp;sortOrder2=title_sort_asc&amp;onlyFullText=false&amp;sf=all"><em>Relaxation of the separation between ecological and evolutionary timescales has unexpected effects on community assembly of species with complex life cycles</em></a> and for securing a PhD position in ecological modelling at Linköping University.</p></li>
 <li><p>New preprint co-authored by <em>Mattias</em> and <em>Claus</em> published on <em>bioRxiv</em>: <a href="https://www.biorxiv.org/content/10.1101/2024.05.06.592709v1"><em>Sex-specific dominance and its effects on allelic diversity in sexually antagonistic loci</em></a>.</p></li>
 </ul>
@@ -2466,8 +2457,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><p>New paper co-authored by <em>Mattias</em> published in <em>The American Naturalist</em>: <a href="https://www.journals.uchicago.edu/doi/10.1086/727968"><em>Anisogamy does not always promote the evolution of mating competition traits in males</em></a>.</p></li>
 <li><p>Welcome to <em>Izabel Eriksson Reuterborg</em> who joins us for her master’s thesis. Izabel studies at Uppsala University. She is interested in modelling community assembly in consumer species with complex life cycles. To this end, she will get into writing individual-based simulations in R.</p></li>
 <li><p>New paper co-authored by <em>Claus</em> published in <em>The American Naturalist</em>: <a href="https://www.journals.uchicago.edu/doi/10.1086/727483"><em>Resource variation within and between patches: Where exploitation competition, local adaptation and kin selection meet</em></a>.</p></li>
-<li><p>New paper by <em>Marco</em>, <em>Paula</em> and <em>Claus</em> published in <em>Ecology Letters</em>:
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.14216"><em>Complex life cycles drive community assembly through immigration and adaptive diversification</em></a>.</p></li>
+<li><p>New paper by <em>Marco</em>, <em>Paula</em> and <em>Claus</em> published in <em>Ecology Letters</em>: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.14216"><em>Complex life cycles drive community assembly through immigration and adaptive diversification</em></a>.</p></li>
 </ul>
 <h3 id="section-3">2022</h3>
 <ul>
@@ -2512,8 +2502,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>Claus Rüffler. All rights reserved. Website made with <a
-href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
+<p>Claus Rüffler. All rights reserved. Website made with <a href="https://pkgs.rstudio.com/distill/">distill</a>.<br />
 Artwork for the lab-logo by Paula Vasconcelos.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
