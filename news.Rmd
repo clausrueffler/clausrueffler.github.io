@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * Congratulations to *Mattias S.* for an honorable mentioning in the
 [*American Naturalist Student Paper Award*](https://www.journals.uchicago.edu/doi/full/10.1086/735855#_i2) for his paper on [*anisogamy*](https://www.journals.uchicago.edu/doi/full/10.1086/727968).
 
-* Congratulations to *Mattias F.* for successfully defending his master's thesis [*How do Arctic palsa mires affect bird abundances?*](). After his defense, Mattias entered the world of environmental consultancy work.
+* Congratulations to *Mattias F.* for successfully defending his master's thesis [*How do Arctic palsa mires affect bird abundances?*](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1993390&dswid=5001) After his defense, Mattias entered the world of environmental consultancy work.
 
 * *Mattias F.* presents a poster with the results from his master's thesis at the [*Swedish Oikos Meeting*](https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2025-121996/) in Stockholm.
 
