@@ -7,6 +7,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### 2026
+
+* *Claus* presents an invited talk on coexistence of seabirds at the [*Modeling and Theory in Population Biology*](https://icerm.brown.edu/program/topical_workshop/tw-26-tpb) workshop at ICERM, Brown University, Providence, RI.  You can watch a recording of the presentation [*here*](https://icerm.brown.edu/video_archive/4686).
+
 ### 2025
 
 * Congratulations to *Olle* for successfully defending his master's thesis [*Foraging Accuracy across Environmental Gradients: Implications for Coexistence and Evolutionary Diversification*](). Also Olle will start his professional career in environmental consultancy.
